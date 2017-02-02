@@ -1,0 +1,61 @@
+.nodeDiv{
+	padding-left : 20px; 
+}
+.TreeAreaNode{
+	width: 300px;
+	height: 350px;
+	overflow: auto;
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+}
+.node{
+	width: 200px;
+	height : 25px;
+	border: 1px solid #ddd;
+	padding-left: 5px;
+	cursor : pointer;
+	color: #999;
+	font-family: calibri;
+}
+.childNodes{
+	display : block;
+}
+.nodeText{
+	float: left;
+	width: 170px;
+	height: 25px;
+    overflow-x: hidden;
+}
+.iconDiv{
+	height: 15px;
+    margin: 5px 5px 0 0;
+    width: 15px;
+	float: left;
+}
+.searchBox{
+	background-color: #f3f3f3;
+    margin: 10px 0 10px 10px;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+	height: 50px;
+	color: #999;
+    font-family: calibri;
+}
+.searchInput {
+    border: 1px solid #def2f9;
+    width: 180px;
+	margin-bottom: 5px;
+}
+.searchNext {
+    background-color: #cccccc;
+	cursor: pointer;
+    float: left;
+    padding: 2px 3px 2px 5px;
+}
+.searchBeg {
+    background-color: #cccccc;
+	cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    padding: 2px 5px;
+}
