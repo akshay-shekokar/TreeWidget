@@ -24,7 +24,8 @@
 	float: left;
 	width: 170px;
 	height: 25px;
-    overflow-x: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .iconDiv{
 	height: 15px;

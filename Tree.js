@@ -34,7 +34,7 @@ var dataArray = [
 						"id":"grandChild2c2p1",
 						"label":"Grand Child 2 Child 2 Parent 1",
 						"childNodes" : [],
-						"type":"leafNode"
+						"nodeType":"leafNode"
 					}
 				]
 			}
@@ -169,18 +169,17 @@ var Tree = function(tree,data,icons){
 			}
 			
 		}
-		if(getIconsFromDefault){
 			if(data.childNodes.length > 0){
-				nodeTypeIconObj = defaultIconList["nonLeafNode"];
+				nodeTypeIconObj = getIconsFromDefault? defaultIconList["nonLeafNode"] : nodeTypeIconObj;
 				node.setAttribute("isLeafNode","false");
 				node.style.backgroundColor = "#FAFAFA";
 			}
 			else{
-				nodeTypeIconObj = defaultIconList["leafNode"];
+				nodeTypeIconObj = getIconsFromDefault? defaultIconList["leafNode"] : nodeTypeIconObj;
 				node.setAttribute("isLeafNode","true");
 				node.style.backgroundColor = "#EEECED";
 			}
-		}
+			
 		var iconDiv = document.createElement("img");
 		iconDiv.className = "iconDiv";
 		if(nodeTypeIconObj.close){
