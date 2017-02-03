@@ -52,6 +52,7 @@
 	cursor: pointer;
     float: left;
     padding: 2px 3px 2px 5px;
+    text-decoration: none;
 }
 .searchBeg {
     background-color: #cccccc;
@@ -59,4 +60,5 @@
     float: left;
     margin-left: 10px;
     padding: 2px 5px;
+    text-decoration: none;
 }
