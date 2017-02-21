@@ -49,6 +49,7 @@
 }
 .searchNext {
     background-color: #cccccc;
+    color: #999;
 	cursor: pointer;
     float: left;
     padding: 2px 3px 2px 5px;
@@ -56,6 +57,7 @@
 }
 .searchBeg {
     background-color: #cccccc;
+    color: #999;
 	cursor: pointer;
     float: left;
     margin-left: 10px;
